@@ -1,4 +1,4 @@
 # Survey-Form-FCC
-This is a project of FreeCodeCamp to build a survey form.
+FreeCodeCamp Project: Survey form.
 # Built With
 HTML & CSS
