@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Survey Resort</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gayathri&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navbar -->
+      <ul class="navbar">
+        <li class="navbar"><a class="navbar" id="name" href="#home"><strong>FCC Resort</strong></a></li>
+        <li class="navbar"><a class="navbar" href="#">Accomodations</a></li>
+        <li class="navbar"><a class="navbar" href="#">Services</a></li>
+        <li class="navbar"><a class="navbar" href="#">Gallery</a></li>
+        <li class="navbar"><a class="navbar" href="#">Offers</a></li>
+        <li class="navbar"><a class="navbar" href="#">Contact</a></li>
+        <li class="navbar" style="float:right"><a class="navbar" href="#">Book Now</a></li>
+        <li class="navbar" style="float:right"><a class="navbar" href="#">Log In</a></li>
+      </ul>
+    <!--Banner-->
+     <div class="banner">
+     </div>
+    <!-- title content -->
+        <div class="title">
+          <h1 id="title"><strong>Resort Survey</strong></h1>
+          <p id="description">We at FCC Resort strive to provide you the best service. Help us succeed in our mission by taking this survey. Thanks in advance.</p>
+        </div>
+    <!-- Form content -->
+        <div class="content">
+
+              <form class="" id="survey-form" action="#" method="post">
+
+                <div class="rowTab">
+                  <div class="label">
+                    <label id="name-label" for="name"> Name </label>
+                  </div>
+                  <div class="rightTab">
+                    <input required type="text" name="name" id="name" class="input-field" placeholder="Enter your name">
+                  </div>
+                </div>
+
+                <div class="rowTab">
+                  <div class="label">
+                    <label id="email-label" for="email"> Email </label>
+                  </div>
+                  <div class="rightTab">
+                    <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+                  </div>
+                </div>
+
+                <div class="rowTab">
+                  <div class="label">
+                    <label id="number-label" for="age"> Age </label>
+                  </div>
+                  <div class="rightTab">
+                    <input id="number" type="number" name="age" min="1" class="input-field" placeholder="How old are you)">
+                  </div>
+                </div>
+                <div class="rowTab">
+                  <div class="label">
+                    <label for="currentPos">Why did you choose our resort?</label>
+                  </div>
+
+                  <div class="rightTab">
+                    <select id="dropdown" name="currentPos" class="dropdown">
+                      <option disabled value>Select an option</option>
+                      <option value="visit">Previous visit</option>
+                      <option value="recommendation">Recommendation</option>
+                      <option value="walk-in">Walk-in</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="rowTab">
+                  <div class="label">
+                    <label for="currentPos">How was our resort's hospitality?</label>
+                  </div>
+
+                  <div class="rightTab">
+                    <select id="dropdown" name="currentPos" class="dropdown">
+                      <option disabled value>Select an option</option>
+                      <option value="welcoming">Welcoming</option>
+                      <option value="neutral">Neutral</option>
+                      <option value="unwelcoming">Unwelcoming</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="rowTab">
+                  <div class="label">
+                    <label for="userRating">How did you hear of our resort?</label>
+                  </div>
+                  <div class="rightTab">
+                    <ul class="radio" style="list-style: none;">
+                      <li class="radio"><label>Social Media<input name="radio-buttons" value="1"  type="radio" class="hear" ></label></li>
+                      <li class="radio"><label>Friend/relative<input name="radio-buttons" value="2"  type="radio" class="hear" ></label></li>
+                      <li class="radio"><label>Brochures/leaflets<input name="radio-buttons" value="3"  type="radio" class="hear" ></label></li>
+                      <li class="radio"><label>Other<input name="radio-buttons" value="4"  type="radio" class="hear" ></label></li>
+                        <input type="text" name="radio-buttons" size="34" placeholder="Please specify" class="hear">
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="rowTab">
+                  <div class="label">
+                    <label for="most-like">What did you like most at FCC?</label>
+                  </div>
+                  <div class="rightTab">
+                    <ul class="checkbox" id="preferences" style="list-style: none;">
+                      <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Food</label></li>
+                      <li class="checkbox"><label><input name="prefer" value="2" type="checkbox" class="userRatings">Lodging</label></li>
+                      <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Atmosphere</label></li>
+                      <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">Resort maintenance</label></li>
+                      <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userRatings">Housekeeping</label></li>
+
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="rowTab">
+                  <div class="label">
+                    <label for="comments">How can we improve our services?</label>
+                  </div>
+                  <div class="rightTab">
+                   <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here"></textarea>
+                  </div>
+               </div>
+
+                  <button class="button" id="submit" type="submit">Submit</button>
+              </form>
+        </div>
+       <!-- Footer -->
+            <div class="footer">
+              <footer>Coded by <a href="https://github.com/lui-esse" target="_blank">Luigi Scognamiglio</a> for FreeCodeCamp</footer>
+            </div>
+
+  </body>
+</html>
