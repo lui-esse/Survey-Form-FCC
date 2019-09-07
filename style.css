@@ -66,9 +66,6 @@ li:hover a:hover {
   color: white;
 }
 
-#submit {
-
-}
 .footer {
   background-color: #070d59;
   text-align: center;
@@ -138,8 +135,6 @@ input[type="checkbox"] {
   padding-bottom: 10px;
 }
 
-
-
 @media screen and (max-width: 833px) {
   .input-field {
     width: 80%;
@@ -150,18 +145,8 @@ input[type="checkbox"] {
 }
 
 @media screen and (max-width: 520px) {
-  .labels {
-    width: 100%;
-    text-align: left;
-  }
-  .rightTab {
-    width: 80%;
-    float: left;
-  }
-  .input-field {
-    width: 100%;
-  }
-  select {
-    width: 100%;
-  }
+  .labels {width: 100%; text-align: left;}
+  .rightTab {width: 80%; float: left;}
+  .input-field {width: 100%;}
+  select { width: 100%;}
 }
